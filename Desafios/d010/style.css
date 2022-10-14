@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 8vh;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(0, 170, 0), rgb(0, 94, 42));
+}
+
+body{
+    background-color: rgb(127, 255, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header > h2{
+    text-align: center;
+}
+header > p{
+    text-align: center;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 900px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+@font-face{ 
+    font-family: 'Androids'; 
+    src: url(idroid.otf)
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}      
+
+h1{
+    font-family: 'Androids';
+    color: rgb(0, 59, 0);
+}
+h2.h2diferente{
+    font-family: 'Androids';
+    color: rgb(0, 59, 0);
+    background-image: linear-gradient(to right, rgba(0, 187, 0, 0.164), white);
+}
+
+h2#diferente{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+footer{
+    background-color: rgb(2, 58, 23);
+            color: rgb(189, 189, 189);
+            text-align: center;
+            padding: 4px;
+            margin: 0;
+}
+footer > p{
+    margin: 0px;
+}
+            
+main > img{
+    display: block;
+     margin: 0px auto;  
+}
+
+h3{
+    background-color: rgb(4, 134, 4);
+    color: white;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+div#bloco{
+    background-color: rgba(155, 255, 189, 0.342);
+    border-radius: 5px;
+    width: 850px;
+    margin: auto;
+}
+
+div#partevideo{
+    background-color: rgb(0, 61, 0);
+    width: 860px;
+    height: 500px;
+    padding: 20px;
+}
+
+div#video{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.espaco{
+    text-indent: 40px;
+}
+
+div#final{
+    text-indent: 40px;
+}
+
+.cor{
+    color: rgb(1, 65, 35);
+}
+
+#lista{
+    columns: 2;
+    list-style-position: inside;    
+}
