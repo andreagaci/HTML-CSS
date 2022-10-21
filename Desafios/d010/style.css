@@ -137,3 +137,20 @@ div#final{
     columns: 2;
     list-style-position: inside;    
 }
+
+<section class="logoscomfundo">
+        <img align="center" src="imagens/CSS COM FUNDO.jpg" alt="" height="500" width="500">
+        <img align="center" src="imagens/HTML COM FUNDO.jpg" alt=""height="500" width="500">
+        <img align="center" src="imagens/Javascript com FUNDO.jpg" alt=""height="500" width="500">
+
+        section.linguagens{
+            margin-top: 30px;
+            padding-bottom: 100px;
+            padding: 200px;
+            text-align: center;
+            background-image: linear-gradient(to bottom, #7B44F2,#9f7ebfc9);
+            max-width: 1000px;
+            min-width: 100px;
+            margin: auto;
+            border-radius: 50px 50px 50px 50px;
+        }
